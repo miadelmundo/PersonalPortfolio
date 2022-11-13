@@ -11,3 +11,9 @@
   padding: 10px;
   background-color: rgba(1, 37, 59,.3);
 }
+
+/*-----Portfolio-------*/
+#portfolio .portfolio-img {
+  height: 40vh;
+  background-size: cover;
+}
