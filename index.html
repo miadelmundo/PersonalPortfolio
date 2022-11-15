@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/1baaba8f34.js" crossorigin="anonymous"></script>
+    <!-- GoogleFonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Parisienne">
     <!-- Custom CSS -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 
@@ -17,25 +19,25 @@
   <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light d-md-flex ">
+    <nav class="navbar navbar-expand-md navbar-light d-md-flex position-fixed w-100">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">MD</a>
+        <a class="navbar-brand text-white" href="#">MD</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link" href="#top">Home</a>
+              <a class="nav-link text-white text-uppercase" href="#top">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link text-white text-uppercase" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link text-white text-uppercase" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link text-white text-uppercase" href="#contact">Contact</a>
             </li>
             
           </ul>
@@ -47,7 +49,7 @@
     <div class="container-fluid w-100 d-flex justify-content-center align-items-center" id="hero" >
       <div class="text-container">
         <h1 class="text-center text-white">Mia Del Mundo</h1>
-        <h4 class="text-center text-white">Full Stack Development student</h4>
+        <h4 class="text-center text-white text-uppercase">Full Stack Development student</h4>
         <div class="social-container text-center mt-3">
           <a class="me-2" href="#"><i class="fa-brands fa-twitter border text-white"></i></a>
           <a class="me-2" href="#"> <i class="fa-brands fa-instagram border text-white"></i></a>
@@ -63,31 +65,67 @@
       <h2 class="mt-5 text-center">My Portfolio</h2>
       <div class="row">
         <div class="col-12 col-md-6 col-lg-3 mt-3">
-          <a href="#"><div class="portfolio-img"  style="background-image: url('./images/rodion-kutsaiev-ikOOFwPFWEw-unsplash\ \(1\).jpg')"></div></a>
+            <div class="img-overflow">
+              <a href="#">
+                <div class="portfolio-img grow"  style="background-image: url('./images/rodion-kutsaiev-ikOOFwPFWEw-unsplash\ \(1\).jpg')"></div>
+              </a>
+            </div>
         </div>
         <div class="col-3 col-md-6 col-lg-3 mt-3">
-          <a href="#"><div class="portfolio-img"  style="background-image: url('./images/louis-paulin-4Q10JVnBhr4-unsplash\ \(1\).jpg')"></div></a>
+          <div class="img-overflow">
+            <a href="#">
+              <div class="portfolio-img grow"  style="background-image: url('./images/louis-paulin-4Q10JVnBhr4-unsplash\ \(1\).jpg')"></div>
+            </a>
+          </div>  
         </div>
         <div class="col-6 col-md-12 col-lg-6 mt-3">
-          <a href="#"><div class="portfolio-img"  style="background-image: url('./images/airbnb-clone.png')"></div></a>
+          <div class="img-overflow">
+            <a href="https://sweet-kringle-c24f3a.netlify.app/">
+              <div class="portfolio-img grow"  style="background-image: url('./images/airbnb-clone.png')"></div>
+            </a>
+          </div>
         </div>
         <div class="col-3 col-md-4 col-lg-5 mt-3">
-          <a href="#"><div class="portfolio-img"  style="background-image: url('./images/carla-cervantes-0FxXZWxaWt0-unsplash\ \(1\).jpg')"></div></a>
+          <div class="img-overflow">
+            <a href="#">
+              <div class="portfolio-img grow"  style="background-image: url('./images/carla-cervantes-0FxXZWxaWt0-unsplash\ \(1\).jpg')"></div>
+            </a>
+          </div>
         </div>
         <div class="col-12 col-md-4 col-lg-4 mt-3">
-          <a href="#"><div class="portfolio-img"  style="background-image: url('./images/newsweekclone.png')"></div></a>
+          <div class="img-overflow">
+            <a href="https://jovial-mcclintock-a1f3d7.netlify.app/">
+              <div class="portfolio-img grow"  style="background-image: url('./images/newsweekclone.png')"></div>
+            </a>
+          </div>
         </div>
         <div class="col-5 col-md-4 col-lg-3 mt-3">
-          <a href="#"><div class="portfolio-img"  style="background-image: url('./images/photo-11-Zk7IIjbM1Uc-unsplash\ \(1\).jpg')"></div></a>
+          <div class="img-overflow">
+            <a href="#">
+              <div class="portfolio-img grow"  style="background-image: url('./images/photo-11-Zk7IIjbM1Uc-unsplash\ \(1\).jpg')"></div>
+            </a>
+          </div>
         </div>
         <div class="col-7 col-md-7 col-lg-4 mt-3">
-          <a href="#"><div class="portfolio-img"  style="background-image: url('./images/kobby-mendez-xBFTjrMIC0c-unsplash\ \(1\).jpg')"></div></a>
+          <div class="img-overflow">
+            <a href="#">
+              <div class="portfolio-img grow"  style="background-image: url('./images/kobby-mendez-xBFTjrMIC0c-unsplash\ \(1\).jpg')"></div>
+            </a>
+          </div>
         </div>
         <div class="col-8 col-md-5 col-lg-4 mt-3">
-          <a href="#"><div class="portfolio-img"  style="background-image: url('./images/apple-clone.png')"></div></a>
+          <div class="img-overflow">
+            <a href="https://naughty-agnesi-3b6e60.netlify.app/">
+              <div class="portfolio-img grow"  style="background-image: url('./images/apple-clone.png')"></div>
+            </a>
+          </div>
         </div>
         <div class="col-4 col-md-12 col-lg-4 mt-3">
-          <a href="#"><div class="portfolio-img"  style="background-image: url('./images/yann-allegre-8FG9tt8qZ-8-unsplash\ \(1\).jpg')"></div></a>
+          <div class="img-overflow">
+            <a href="#">
+              <div class="portfolio-img grow"  style="background-image: url('./images/yann-allegre-8FG9tt8qZ-8-unsplash\ \(1\).jpg')"></div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -101,9 +139,10 @@
         </div>
         <div class="col-8">
           <div class="about-wrap pe-4">
-            <h2>About</h2>
-            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut accumsan massa. Proin luctus sit amet felis vitae rutrum. Proin a magna nec nisi molestie.</div>
-            <div class="mt-3"><a href="#">Part of Altcademy's Fullstack Program</a></div>
+            <h2 class="text-white">About</h2>
+            <div class="text-white">Hi! I'm Mia. I'm a chef currently living in the Rockies and an aspiring entrepreneur. During the pandemic, I was looking for a change and to learn something new. Being surrounded by programmers, both freinds and family, I have decided to give it a try. And it was an instant hit. As someone who loves puzzles, I found programming to be very fascinating. With technology changing most industries, I'm hoping to gain new skills to broaden my horizons and pivot my career.
+            </div>
+            <div class="mt-3 "><a href=" https://www.altcademy.com" class="text-white text-decoration-none" id="altcademy-link">Part of Altcademy's Fullstack Program</a></div>
             
           </div>
         </div> 
@@ -113,18 +152,18 @@
 
 
     <!-- Contact -->
-    <div class="container-xxl py-5" id="contact" >
+    <div class="container-xxl py-5 mb-4" id="contact" >
       <h2 class="text-center mb-4">Contact</h2>
       <div class="row">
         <div class="col-5">
-          <div class="contact-wrap border p-4 mx-5">
+          <div class="contact-wrap shadow-lg p-4 mx-5">
             <div class="mb-3"><i class="fa-solid fa-location-dot border me-3"></i> Banff, AB</div>
             <div class="mb-3"><i class="fa-regular fa-envelope border me-3"></i>myemail@email.com</div>
             <div class="mb-3"><i class="fa-solid fa-phone border me-3"></i>+1 123-456-7890</div>
           </div>
         </div>
         <div class="col-7">
-          <div class="form-wrap border p-4 mx-3">
+          <div class="form-wrap shadow-lg p-4 mx-3">
             <form>
               <div class="row mb-3">
                 <div class="col-md-6 form-floating form-group">
@@ -145,7 +184,7 @@
                 <label for="floatingTextarea2">Comments</label>              
               </div>
               <div class="form-button text-center">
-                <button class="p-2 rounded">Send</button>
+                <button class="px-3 py-2 rounded-pill text-white">Send</button>
               </div> 
             </form>
           </div>
@@ -156,16 +195,16 @@
 
     <!-- Footer -->
 
-    <footer class="py-5 border-top" id="footer" >
+    <footer class="pt-5 pb-5 border-top" id="footer" >
       <div class="footer-wrap">
-        <h2 class="text-center"> Mia Del Mundo</h2>
+        <h3 class="text-center text-white"> Mia Del Mundo</h3>
         <div class="social-container text-center mt-4">
           <a class="me-2" href="#"><i class="fa-brands fa-twitter border text-white"></i></a>
           <a class="me-2" href="#"> <i class="fa-brands fa-instagram border text-white"></i></a>
           <a class="me-2" href="https://www.linkedin.com/in/miadelmundo"><i class="fa-brands fa-linkedin border text-white"></i></a>
           <a href="https://github.com/miadelmundo"><i class="fa-brands fa-github border text-white"></i></a>
         </div>
-        <div class="legal text-center mt-3">&copy; Mia Del Mundo 2022</div>
+        <div class="legal text-center mt-5 text-white"><small>&copy; Mia Del Mundo 2022</small></div>
 
       </div>
     </footer> 

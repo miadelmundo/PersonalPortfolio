@@ -1,8 +1,29 @@
+
+/*-----Nav-------*/
+nav {
+  background-color: rgba(55, 77, 100, 0.9);
+}
+
+.nav-item a:hover {
+  color: #FF8D27 !important;
+}
+
+.nav-link {
+  font: 14px "Raleway", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+
 /*-----Hero-------*/
 #hero {
   height: 90vh;
-  background: url("./images/chi-liu-lWMMq8Hh6Dg-unsplash.jpg") top;
+  background: url("./images/chi-liu-lWMMq8Hh6Dg-unsplash.jpg") no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .social-container i {
@@ -12,23 +33,87 @@
   background-color: rgba(1, 37, 59,.3);
 }
 
+.social-container i:hover {
+  background-color: #FF8D27;
+  border-color: #FF8D27 !important;
+}
+
+#hero h1 {
+  font: 50px "Parisienne", sans-serif;
+  font-weight: 700;
+}
+
+#hero h4 {
+  font: 14px "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 /*-----Portfolio-------*/
 #portfolio .portfolio-img {
   height: 40vh;
   background-size: cover;
 }
 
+.img-overflow {
+  overflow: hidden;
+}
 
+.grow { 
+  transition: all .6s ease-in-out; 
+  }
+  
+.grow:hover { 
+  transform: scale(1.1); 
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #012032;
+}
+
+/*-----About-------*/
 #about .about-img {
   height: 20vh;
   border-radius: 50%;
   padding: 10px;
-  border: 5px solid turquoise;
+  border: 5px solid #5EE1D1;
 }
 
+.about-container {
+  background-color: #012032;
+}
+
+#altcademy-link:hover {
+  color: #FF8D27 !important; 
+}
+
+/*-----Contact-------*/
 .contact-wrap i {
-  font-size: 22px;
+  font-size: 25px;
   border-radius: 50%;
   padding: 10px;
+  color: rgb(31, 232, 247);
+  border-color: rgb(31, 232, 247) !important;
+  background-color: rgb(188, 246, 250);
 }
 
+.form-button button {
+  border-color: rgb(31, 232, 247) !important;
+  background-color: rgb(31, 232, 247);
+} 
+
+.form-button button:hover {
+  background-color: rgb(188, 246, 250);
+}
+
+/*-----Footer-------*/
+footer {
+  background: url("./images/daniel-leone-g30P1zcOzXo-unsplash\ \(1\).jpg") no-repeat;
+  background-size: cover;
+}
+
+footer h3 {
+  font: 40px "Parisienne", sans-serif;
+  font-weight: 700;
+}
