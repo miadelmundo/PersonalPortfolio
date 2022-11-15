@@ -20,8 +20,10 @@
 
 
 #about .about-img {
-  height: 15vh;
-  background-size: cover;
+  height: 20vh;
+  border-radius: 50%;
+  padding: 10px;
+  border: 5px solid turquoise;
 }
 
 .contact-wrap i {
